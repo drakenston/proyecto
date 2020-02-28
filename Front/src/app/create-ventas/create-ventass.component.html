@@ -1,0 +1,67 @@
+<h3>Nueva Venta</h3>
+<div [hidden]="submitted" style="width: 400px;">
+  <form (ngSubmit)="onSubmit(form)">
+    <div class="form-group">
+      <label for="name">Region</label>
+      <input type="text" class="form-control" id="Region required" [(ngModel)]="ventas.Region">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Country </label>
+      <input type="text" class="form-control" id="Country required" [(ngModel)]="ventas.Country" >
+    </div>
+
+    <div class="form-group">
+      <label for="name">Item Type</label>
+      <input type="text" class="form-control" id="ItemType" required [(ngModel)]="ventas.ItemType">
+    </div>
+    <div class="form-group">
+      <label for="name"> Sales Channel</label>
+      <input type="text" class="form-control" id="SalesChannel" required [(ngModel)]="ventas.SalesChannel" name="S">
+    </div>
+    <div class="form-group">
+      <label for="name">Order Priority</label>
+      <input type="text" class="form-control" id="OrderPriority" required [(ngModel)]="ventas.OrderPriority" name="emailId">
+    </div>
+    <div class="form-group">
+      <label for="name">Order Date</label>
+      <input type="text" class="form-control" id="OrderDate" required [(ngModel)]="ventas.OrderDate" name="emailId">
+    </div>
+    <div class="form-group">
+      <label for="name">Order Id</label>
+      <input type="text" class="form-control" id="OrderId" required [(ngModel)]="ventas.OrderId" >
+    </div>
+    <div class="form-group">
+      <label for="name">Ship Date</label>
+      <input type="text" class="form-control" id="ShipDate" required [(ngModel)]="ventas.ShipDate" >
+    </div>
+    <div class="form-group">
+      <label for="name">Units Sold</label>
+      <input type="text" class="form-control" id="UnitsSold" required [(ngModel)]="ventas.UnitsSold" >
+    </div>
+    <div class="form-group">
+      <label for="name">Unit Price</label>
+      <input type="text" class="form-control" id="UnitPrice" required [(ngModel)]="ventas.UnitPrice" >
+    </div>
+    <div class="form-group">
+      <label for="name">Unit Cost</label>
+      <input type="text" class="form-control" id="UnitCost" required [(ngModel)]="ventas.UnitCost" >
+    </div>
+    <div class="form-group">
+      <label for="name">Total Revenue</label>
+      <input type="text" class="form-control" id="TotalRevenue" required [(ngModel)]="ventas.TotalRevenue" >
+    </div>
+    <div class="form-group">
+      <label for="name">Total Cost</label>
+      <input type="text" class="form-control" id="TotalCost" required [(ngModel)]="ventas.TotalCost" >
+    </div>
+    <div class="form-group">
+      <label for="name">Total Profit</label>
+      <input type="text" class="form-control" id="TotalProfit" required [(ngModel)]="ventas.TotalProfit" >
+    </div>
+    
+    
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>

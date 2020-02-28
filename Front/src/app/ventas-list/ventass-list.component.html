@@ -1,0 +1,48 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+      <h2>Lista de Ventas</h2>
+    </div>
+    <div class="panel-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Region</th>
+            <th>Country</th>
+            <th>Item Type</th>
+            <th>Sales Channel</th>
+            <th>Order Priority</th>
+            <th>Order Date</th>
+            <th>Order Id</th>
+            <th>Ship Date</th>
+            <th>Units Sold</th>
+            <th>Unit Price</th>
+            <th>Unit Cost</th>
+            <th>Total Revenue</th>
+            <th>Total Cost</th>
+            <th>Total Profit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let x of objeto ">
+            <td>{{x.Region}}</td>
+            <td>{{x.Country}}</td>
+            <td>{{x.ItemType}}</td>
+            <td>{{x.SalesChannel}}</td>
+            <td>{{x.OrderPriority}}</td>
+            <td>{{x.OrderDate}}</td>
+            <td>{{x.OrderID}}</td>
+            <td>{{x.ShipDate}}</td>
+            <td>{{x.UnitsSold}}</td>
+            <td>{{x.UnitPrice}}</td>
+            <td>{{x.UnitCost}}</td>
+            <td>{{x.TotalRevenue}}</td>
+            <td>{{x.TotalCost}}</td>
+            <td>{{x.TotalProfit}}</td>
+            <td><button (click)="delete(x)" class="btn btn-danger">Borrar</button>
+                <button (click)="actualizaVenta(employee.id)" class="btn btn-info" style="margin-left: 10px">Actualizar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
