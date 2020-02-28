@@ -16,7 +16,7 @@ import java.util.List;
 public class Registro {
 
     @Id
-    public String _id;
+    private String _id;
     public String orderId;
     public String region;
     public String country;
@@ -25,12 +25,12 @@ public class Registro {
     public String orderDate;
     public String shipDate;
     public String orderPriority;
-    public Double unitsSold;
-    public Double unitsPrice;
-    public Double unitsCost;
-    public Double totalRevenue;
-    public Double totalCost;
-    public Double totalProfit;
+    public Number unitsSold;
+    public Number unitsPrice;
+    public Number unitsCost;
+    public Number totalRevenue;
+    public Number totalCost;
+    public Number totalProfit;
 
    /* @Override
     public String toString() {

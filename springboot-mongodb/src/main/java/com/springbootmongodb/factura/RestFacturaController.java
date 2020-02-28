@@ -31,32 +31,23 @@ public class RestFacturaController {
                 .orElseThrow(() -> new RegistroNotFoundException(id));
     }
 
-    @PutMapping("/{id}")
-    Registro putRegistro(@Valid @RequestBody Registro bloqueOld, @PathVariable String id) {
+    /*@PutMapping("/{id}")
+    Person replacePerson(@RequestBody Person person, @PathVariable String id) {
 
         return repository.findById(id)
-                .map(bloqueNew -> {
-                    bloqueNew.orderId = bloqueOld.orderId;
-                    bloqueNew.region= bloqueOld.region;
-                    bloqueNew.country= bloqueOld.country;
-                    bloqueNew.itemType= bloqueOld.itemType;
-                    bloqueNew.saleChannel= bloqueOld.saleChannel;
-                    bloqueNew.orderDate= bloqueOld.orderDate;
-                    bloqueNew.shipDate= bloqueOld.shipDate;
-                    bloqueNew.orderPriority= bloqueOld.orderPriority;
-                    bloqueNew.unitsSold= bloqueOld.unitsSold;
-                    bloqueNew.unitsPrice= bloqueOld.unitsPrice;
-                    bloqueNew.unitsCost= bloqueOld.unitsCost;
-                    bloqueNew.totalRevenue= bloqueOld.totalRevenue;
-                    bloqueNew.totalCost = bloqueOld.totalCost;
-                    bloqueNew.totalProfit = bloqueOld.totalProfit;
-                    return repository.save(bloqueOld);
+                .map(person1 -> {
+                    person1.setFirstName(person.getFirstName());
+                    person1.setSecondName(person.getSecondName());
+                    person1.setAddress(person.getAddress());
+                    person1.setDateOfBirth(person.getDateOfBirth());
+                    person1.setHobbies(person.getHobbies());
+                    return repository.save(person1);
                 })
                 .orElseGet(() -> {
-                    bloqueOld._id=id;
-                    return repository.save(bloqueOld);
+                    person.setId(id);
+                    return repository.save(person);
                 });
-    }
+    }*/
 
     @DeleteMapping("/{id}")
     Registro deleteRegistro(@PathVariable String id) {
