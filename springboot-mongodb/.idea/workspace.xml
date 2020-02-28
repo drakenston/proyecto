@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="283da056-d1ce-4176-b607-a14cc51a4a1f" name="Default Changelist" comment="" />
+    <list default="true" id="283da056-d1ce-4176-b607-a14cc51a4a1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_boot_mongodb_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_boot_mongodb_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbootmongodb/SpringBootMongodbApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbootmongodb/SpringBootMongodbApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbootmongodb/factura/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbootmongodb/factura/Registro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbootmongodb/factura/RestFacturaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbootmongodb/factura/RestFacturaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/SpringBootMongodbApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/books/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/books/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/books/BookRepositoryCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/books/BookRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/books/DynamicQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/customer/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/customer/CustomerNotFoundAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/customer/CustomerNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/customer/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/customer/RestCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/factura/Registro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/factura/RegistroNotFoundAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/factura/RegistroNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/factura/RegistroRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/factura/RestFacturaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/persons/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/persons/Hobby.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/persons/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/persons/PersonNotFoundAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/persons/PersonNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/persons/PersonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbootmongodb/persons/RestPersonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springbootmongodb/SpringBootMongodbApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +53,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YLi3Tgs8TiZoGY9KqSfNfJA6Fv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,6 +80,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,9 +93,27 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootMongodbApplication">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SpringBootMongodbApplication">
+    <configuration name="SpringBootMongodbApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springbootmongodb.SpringBootMongodbApplication" />
+      <module name="spring-boot-mongodb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springbootmongodb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootMongodbApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-mongodb" />
       <extension name="coverage">
@@ -70,12 +136,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.SpringBootMongodbApplication" />
-      <item itemvalue="Spring Boot.SpringBootMongodbApplication (1)" />
+      <item itemvalue="Application.SpringBootMongodbApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringBootMongodbApplication (1)" />
+        <item itemvalue="Application.SpringBootMongodbApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -101,9 +166,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="507" y="396" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582735506534">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="274" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582760772017">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="274" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582760772017" />
     <state x="507" y="396" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582735506534" />
     <state x="801" y="239" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1582742320007">
       <screen x="67" y="27" width="1853" height="1053" />
@@ -113,25 +179,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="781" y="524" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582735497888" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582729621020">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="523" y="196" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582760708044">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="523" y="196" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582760708044" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582729621020" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1582746579057">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1582841354395">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582841354395" />
     <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582746579057" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1582746579056">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1582841354395">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582841354395" />
     <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582746579056" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1582746579056">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1582841354395">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582841354395" />
     <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582746579056" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1582746579057">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1582841354395">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582841354395" />
     <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582746579057" />
     <state width="1807" height="278" key="GridCell.Tab.1.bottom" timestamp="1582746579069">
       <screen x="67" y="27" width="1853" height="1053" />
@@ -149,13 +220,19 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="278" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582746579068" />
-    <state x="482" y="187" width="1024" height="845" key="SettingsEditor" timestamp="1582738081118">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="306" y="0" width="916" height="728" key="SettingsEditor" timestamp="1582761368908">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="306" y="0" width="916" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582761368908" />
     <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1582738081118" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582739316874">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="429" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1582759973809">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="429" y="244" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582759973809" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582739316874" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1582760554572">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582760554572" />
   </component>
 </project>
