@@ -54,8 +54,8 @@ public class registroController {
 
     }
 
-    @DeleteMapping("/{id}")
-    public Mono<ResponseEntity<factura>> delete(@PathVariable(value = "id") String id) {
+    @DeleteMapping("/{_id}")
+    public Mono<ResponseEntity<factura>> delete(@PathVariable(value = "_id") String id) {
 
         return reactiveMongoRepository.findById(id)
                 .flatMap(bloque ->
