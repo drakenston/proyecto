@@ -31,23 +31,32 @@ public class RestFacturaController {
                 .orElseThrow(() -> new RegistroNotFoundException(id));
     }
 
-    /*@PutMapping("/{id}")
-    Person replacePerson(@RequestBody Person person, @PathVariable String id) {
+    @PutMapping("/{id}")
+    Registro replacePerson(@RequestBody Registro registro, @PathVariable String id) {
 
         return repository.findById(id)
-                .map(person1 -> {
-                    person1.setFirstName(person.getFirstName());
-                    person1.setSecondName(person.getSecondName());
-                    person1.setAddress(person.getAddress());
-                    person1.setDateOfBirth(person.getDateOfBirth());
-                    person1.setHobbies(person.getHobbies());
-                    return repository.save(person1);
+                .map(registro1 -> {
+                    registro1.OrderId=registro.OrderId;
+                    registro1.Region=registro.Region;
+                    registro1.Country=registro.Country;
+                    registro1.ItemType=registro.ItemType;
+                    registro1.SaleChannel=registro.SaleChannel;
+                    registro1.OrderDate=registro.OrderDate;
+                    registro1.ShipDate=registro.ShipDate;
+                    registro1.OrderPriority=registro.OrderPriority;
+                    registro1.UnitsSold=registro.UnitsSold;
+                    registro1.UnitsPrice=registro.UnitsPrice;
+                    registro1.UnitsCost=registro.UnitsCost;
+                    registro1.TotalRevenue=registro.TotalRevenue;
+                    registro1.TotalCost=registro.TotalCost;
+                    registro1.TotalProfit=registro.TotalProfit;
+                    return repository.save(registro1);
                 })
                 .orElseGet(() -> {
-                    person.setId(id);
-                    return repository.save(person);
+                    registro.set_id(id);
+                    return repository.save(registro);
                 });
-    }*/
+    }
 
     @DeleteMapping("/{id}")
     Registro deleteRegistro(@PathVariable String id) {

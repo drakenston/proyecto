@@ -47,7 +47,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootMongodbApplication">
+  <component name="RunManager">
     <configuration name="SpringBootMongodbApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-mongodb" />
       <extension name="coverage">
@@ -69,15 +69,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.SpringBootMongodbApplication" />
-      <item itemvalue="Spring Boot.SpringBootMongodbApplication (1)" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.SpringBootMongodbApplication (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,9 +96,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="507" y="396" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582735506534" />
-    <state x="801" y="239" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1582742320007">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="541" y="94" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1582880667230">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="541" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582880667230" />
     <state x="801" y="239" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582742320007" />
     <state x="781" y="524" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582735497888">
       <screen x="67" y="27" width="1853" height="1053" />
@@ -153,9 +145,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1582738081118" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582739316874">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="429" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1582880103528">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="429" y="244" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582880103528" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582739316874" />
   </component>
 </project>
